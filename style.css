@@ -1,10 +1,10 @@
 header {
+    padding: 20px 0px 40px 0px;
+    margin: 0px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     background-color: rgb(47, 38, 25);
-    padding: 20px 0px 40px 0px;
-    margin: 0px;
 }
 
 #icon {
