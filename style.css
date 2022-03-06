@@ -2,23 +2,47 @@
     margin: 0px;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;;
+}
+
 header {
     padding: 20px 0px 40px 0px;
     margin: 0px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     padding: 20px 0px 40px 0px;
-    font-size: 30px;
-    background-color: rgb(47, 38, 25);
-<<<<<<< HEAD
-    
-=======
->>>>>>> 40cd7e62193dc1cc034828d4c2963803c98393c6
+    font-size: 20px;
+    background-color: rgb(71, 61, 48);
+    height: 30%;
 }
 
 #icon {
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
-    border: solid white 10px;
+    width: 20%;
+    border-radius: 50%;
+    border: solid white 7px;
 }
+
+main {
+    width: 60%;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+p {
+    padding-bottom: 30px;
+}
+
+
