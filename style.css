@@ -1,10 +1,19 @@
+* {
+    margin: 0px;
+}
+
 header {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    background-color: rgb(47, 38, 25);
     padding: 20px 0px 40px 0px;
     margin: 0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0px 40px 0px;
+    font-size: 30px;
+    background-color: rgb(47, 38, 25);
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 40cd7e62193dc1cc034828d4c2963803c98393c6
 }
 
 #icon {
