@@ -6,17 +6,15 @@
 
 body {
     font-family: 'Montserrat', sans-serif;;
-    background-color: beige;
+    background-color: #c6aa7d;
 }
 
 header {
     padding: 20px 0px 40px 0px;
-    margin: 0px;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
-    background-color: rgb(71, 61, 48);
-    height: 30%;
+    background-color: #473d30;
 }
 
 #icon {
@@ -59,7 +57,7 @@ main {
 }
 
 .main_img {
-    width: 100%;
+    width: 65%;
     border-radius: 20px;
     margin:10px 0 50px 0;
 }
@@ -71,6 +69,13 @@ main {
     text-align: center;
 }
 
+footer {
+    padding: 2.5% 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #473d30;
+}
 
 h2 {
     font-weight: 600;
