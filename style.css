@@ -47,6 +47,7 @@ li, a {
 
 .nav_links li a:hover {
     color: rgb(255, 255, 255);
+    font-size: 18px;
 }
 
 main {
