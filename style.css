@@ -1,9 +1,12 @@
 * {
-    margin: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;;
+    background-color: beige;
 }
 
 header {
@@ -21,6 +24,30 @@ header {
     width: 20%;
     border-radius: 50%;
     border: solid white 7px;
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 16px;
+    color: bisque;
+    text-decoration: none;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(255, 255, 255);
 }
 
 main {
@@ -44,5 +71,6 @@ h3 {
 p {
     padding-bottom: 30px;
 }
+
 
 
