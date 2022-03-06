@@ -14,7 +14,6 @@ header {
     margin: 0px;
     text-align: center;
     font-weight: 700;
-    padding: 20px 0px 40px 0px;
     font-size: 20px;
     background-color: rgb(71, 61, 48);
     height: 30%;
@@ -39,7 +38,7 @@ li, a {
 
 .nav_links li {
     display: inline-block;
-    padding: 20px 30px;
+    padding: 20px 5%;
 }
 
 .nav_links li a {
@@ -53,7 +52,7 @@ li, a {
 main {
     width: 60%;
     margin: auto;
-    padding: 50px 0px 50px 0px;
+    padding: 50px 0px;
     font-size: 18px;
     font-weight: 400;
 }
