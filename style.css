@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;;
-    background-color: #c6aa7d;
+    background-color: #e9c79f;
 }
 
 header {
@@ -57,7 +57,7 @@ main {
 }
 
 .main_img {
-    width: 65%;
+    width: 100%;
     border-radius: 20px;
     margin:10px 0 50px 0;
 }
