@@ -53,6 +53,7 @@ li, a {
 
 main {
     width: 60%;
+    min-width: 300px;
     margin: auto;
     padding: 50px 0px;
     font-size: 18px;
@@ -101,22 +102,32 @@ p {
 }
 
 .frame {
-    
-    padding: 30px 10px 30px 10px;
+    padding: 30px 10px 10px 10px;
     width: 80%;
     margin: 50px auto;
     border-radius: 10px;
     border: solid;
     border-color: #e0d4bb;
-    background-color: #fff7d0b3; 
+    background-color: #ece3b6; 
     border-width: 2px;
 }
 
 .frame p {
+    padding-top: 20px;
     text-align: center;
-    color: grey;
+    color: #4c4c4c;
 }
 .frame img {
     width: 100%;
     border-radius: 7px;
+}
+
+.frame {
+    transition: all 0.2s ease 0s;
+}
+
+.frame:hover {
+    border-color: #d1c3a6;
+    border-width: 3px;
+    background-color: #e9e0b3;
 }
