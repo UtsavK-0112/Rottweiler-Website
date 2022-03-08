@@ -36,7 +36,7 @@ li, a {
 
 .nav_links li {
     display: inline-block;
-    padding: 20px 5%;
+    padding: 2%;
 }
 
 .nav_links li a {
@@ -46,7 +46,7 @@ li, a {
 .nav_links li a:hover {
     color: rgb(255, 255, 255);
     font-size: 18px;
-    padding: 5px;
+    padding: 7px;
     border-radius: 4px;
     background-color: #544c42;
 }
@@ -100,4 +100,23 @@ p {
     background-color: #544c42;
 }
 
+.frame {
+    
+    padding: 30px 10px 30px 10px;
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 10px;
+    border: solid;
+    border-color: #e0d4bb;
+    background-color: #fff7d0b3; 
+    border-width: 2px;
+}
 
+.frame p {
+    text-align: center;
+    color: grey;
+}
+.frame img {
+    width: 100%;
+    border-radius: 7px;
+}
