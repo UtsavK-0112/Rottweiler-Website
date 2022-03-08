@@ -112,8 +112,8 @@ p {
 
 .frame {
     padding: 30px 10px 10px 10px;
-    width: 80%;
-    margin: 50px auto;
+    width: 65%;
+    margin: 70px auto;
     border-radius: 10px;
     border: solid;
     border-color: #e0d4bb;
@@ -140,4 +140,38 @@ p {
     border-width: 3px;
     background-color: #ece3b6;
     transform:scale(1.15)
+}
+
+
+.trait {
+    width: 95%;
+    margin: auto;
+    background-color: black;
+}
+
+
+.trait td{
+    padding: 5px 30px;
+    transition: all 0.1s ease 0s;
+}
+
+.trait tr{
+    background-color: #eeeeee;
+    transition: all 0.3s ease 0s;
+}
+
+.trait th {
+    background-color: #5b80a2;
+}
+
+.trait img{
+    transform: translate(0px, 3px);
+}
+
+.trait tr:hover {
+    background: #dddddd;
+}
+
+.trait td:hover {
+    background-color: #d6d6d6;
 }
