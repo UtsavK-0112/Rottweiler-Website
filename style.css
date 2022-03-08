@@ -144,14 +144,15 @@ p {
 
 
 .trait {
-    width: 95%;
+    width: 80%;
     margin: auto;
     background-color: black;
 }
 
 
 .trait td{
-    padding: 5px 30px;
+    text-align: center;
+    padding: 30px 15px;
     transition: all 0.1s ease 0s;
 }
 
@@ -161,6 +162,8 @@ p {
 }
 
 .trait th {
+    text-align: center;
+    padding: 30px 15px;
     background-color: #5b80a2;
 }
 
