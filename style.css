@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;;
-    background-color: #e9c79f;
+    background-color: #ecb69c;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 }
 
 #icon {
-    min-width: 150px;
+    min-width: 200px;
     width: 20%;
     border-radius: 50%;
     border: solid white 7px;
@@ -30,29 +30,20 @@ header hr {
     min-width: 300px;
     width: 60%; 
     margin:25px auto 0px auto; 
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
-li, a {
+nav a, nav p {
+    margin: 10px 3%;
     font-weight: 500;
     font-size: 16px;
     color: bisque;
     text-decoration: none;
-}
-
-.nav_links {
-    list-style: none;
-}
-
-.nav_links li {
     display: inline-block;
-    padding: 2%;
+    transition: all 0.3s ease 0.1s;
 }
 
-.nav_links li a {
-    transition: all 0.3s ease 0s;
-}
-
-.nav_links li a:hover {
+nav a:hover {
+    margin: 3px 2%;
     color: rgb(255, 255, 255);
     font-size: 18px;
     padding: 7px;
@@ -70,12 +61,14 @@ main {
 }
 
 .main_img {
+    
     width: 100%;
     border-radius: 20px;
     margin:10px 0 50px 0;
 }
 
 .diagram {
+    min-width: 250px;
     width: 80%;
     border-radius: 20px;
     margin:10px 0 50px 10%;
@@ -112,7 +105,7 @@ p {
 
 .frame {
     padding: 30px 10px 10px 10px;
-    width: 65%;
+    width: 70%;
     margin: 70px auto;
     border-radius: 10px;
     border: solid;
@@ -132,7 +125,7 @@ p {
 }
 
 .frame {
-    transition: all 0.2s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 .frame:hover {
@@ -172,9 +165,9 @@ p {
 }
 
 .trait tr:hover {
-    background: #dddddd;
+    background: #cad3e2;
 }
 
 .trait td:hover {
-    background-color: #d6d6d6;
+    background-color: #bac7dc;
 }
