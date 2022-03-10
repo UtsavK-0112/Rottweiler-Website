@@ -83,6 +83,11 @@ footer {
     background-color: #39352f;
 }
 
+footer a {
+    text-decoration: none;
+    color: #b8a894;
+}
+
 h2 {
     font-weight: 600;
     padding-bottom: 20px;
